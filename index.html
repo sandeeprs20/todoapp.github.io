@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link
+    rel="icon"
+    type="image/png"
+    href="./images/webicon.png"
+    type="image/icon type"
+  />
+  <title>TODOO</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>TODOO</h1>
+      <div>
+        <img id="theme" src="./images/icon-moon.svg" alt="Moon icon" />
+        </div>
+      </div>
+      <div class="input">
+        <div id="submit"></div>
+        <input type="text" id="createNewTodo" placeholder="Create a new todo" />
+      </div>
+  </header>
+  <section>
+    <div>
+      <ul></ul>
+      <div class="controls">
+        <div>
+          <!-- Add dynamic number -->
+          <span id="itemLeftDisplay"></span>
+          <span> items left</span>
+        </div>
+        <div class="links">
+          <span id="all" class="active">All</span>
+          <span id="active">Active</span>
+          <span id="completed">Completed</span>
+        </div>
+        <div id="clear">
+          <span>Clear completed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>Drag and drop to reorder list</div>
+  </footer>
+    <div id="footer">
+      © 2022 COPYRIGHT SANDEEP SREENIVASAN :
+      <a href="https://sandeeprs20.github.io/" target="_blank" rel="noopener noreferrer">sandeeprs20.github.io</a>
+    </div>
+  
+  <script src="./index.js"></script>
+</body>
+</html>
